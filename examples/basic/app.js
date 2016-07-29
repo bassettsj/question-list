@@ -1,4 +1,5 @@
 import React from 'react';
+import { render } from 'react-dom';
 import QuestionList from '../../lib/index';
 
 let App = React.createClass({
@@ -12,4 +13,4 @@ let App = React.createClass({
   }
 });
 
-React.render(<App/>, document.getElementById('container'));
+render(<App/>, document.getElementById('container'));
